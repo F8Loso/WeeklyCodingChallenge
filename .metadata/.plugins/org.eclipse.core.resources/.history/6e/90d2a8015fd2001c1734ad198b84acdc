@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.util.Set;
+
+public class MagicIndex {
+
+	int magicIndexMethod(int array[]) {
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == i) {
+				return i;
+			}
+		}
+    System.out.println("Here's your magic index" + array );
+	return -1;
+    
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		int arrB[] = { -2, 0, 2, 3, 4, 5 };
+//		MagicIndex mi = new MagicIndex();
+//		mi.magicIndexMethod(arrB);
+//
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter your array: ");
+//		int arrA =  sc.nextInt();
+
+		System.out.println("Here's your magic index" );
+
+//		sc.close();
+	}
+}

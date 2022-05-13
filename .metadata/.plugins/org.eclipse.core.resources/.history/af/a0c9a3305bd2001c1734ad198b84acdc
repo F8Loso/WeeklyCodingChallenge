@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class MagicIndex {
+	
+	 int magicIndexMethod(int array[] ) { 
+		 
+	int low = 0;
+	int high = array.length-1;
+	int mid;
+    
+	while (low <= high) {
+		//get middle index
+		mid = Math.floorDiv(low, high)/2;
+		
+		if(array[mid]==mid) {
+			return mid;
+	}
+       //checking the right
+		if(mid>array[mid]) {
+			low = mid + 1;
+		
+		//checking the left
+		}else {
+			high = mid - 1;
+		}
+	}
+    
+	return low; 
+	}
+	 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		 MagicIndex mi = new MagicIndex();
+			
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your array: ");
+		int arrA =  sc.nextInt();
+		int arrB[]; 
+	   
+		System.out.println("Here's your magic index" + arrA );
+}}

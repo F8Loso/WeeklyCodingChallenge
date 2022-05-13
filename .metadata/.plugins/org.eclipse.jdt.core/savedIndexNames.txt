@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\sferb\OneDrive\Desktop\FSD softwares\WeeklyCodingChallenge\.metadata\.plugins\org.eclipse.jdt.core
+2115981834.index
+2951924704.index
+1865797976.index
